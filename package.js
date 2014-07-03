@@ -11,5 +11,4 @@ Package.on_use(function (api) {
   api.export('Emoji');
 
   api.use('ui', 'client', {weak: true});
-  api.add_files('template-integration.js', 'client');
 });
