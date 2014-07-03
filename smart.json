@@ -3,6 +3,6 @@
     "description": "Emoji symbol-to-icon converter :thumbsup:",
     "homepage": "https://github.com/SeriousM/meteor-emoji",
     "author": "Bernhard Millauer (http://github.com/SeriousM)",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "git": "https://github.com/SeriousM/meteor-emoji.git"
 }
