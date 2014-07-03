@@ -7,10 +7,10 @@ Emoji.convert = function (str) {
 
     return str.replace(/:[\+\-a-z0-9_]+:/gi, function(match) {
         var imgName = match.slice(1, -1);
-        var path = '/packages/emoji/img/' + imgName + '.png';
+        var path = '/packages/emoji-continued/img/' + imgName + '.png';
         return "<img class='emoji' title='" + match + "' src='" + path + "'/>";
     });
-}
+};
 
 // borrowed code from https://github.com/meteor/meteor/blob/devel/packages/showdown/template-integration.js
 if (Package.ui) {
@@ -31,7 +31,7 @@ if (Package.ui) {
       // this is for the direct usage eg: {{> emoji ":smile:"}}
       return function(){
         return HTML.Raw(Emoji.convert(self.parent.data()));
-      }
+      };
     }
   }));
 }
