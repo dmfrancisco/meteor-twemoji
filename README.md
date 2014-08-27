@@ -1,13 +1,13 @@
 # Meteor Emoji 
 
-A simple [Meteor](http://www.meteor.com/) package to convert emoji symbols into images (Using Github/Campfire/etc. emoji convention).
+A [Meteor](http://www.meteor.com/) package to convert emoji symbols into images (Using Github/Campfire/etc. emoji convention).
 See http://www.emoji-cheat-sheet.com/ for a list of available emoji.
 
 ## Installation
 
-Using [Meteorite](https://github.com/oortcloud/meteorite/), add the emoji package from [Atmosphere](https://atmosphere.meteor.com/):
+Using Meteor Package System, add the emoji package from [Atmosphere](https://atmosphere.meteor.com/):
 ```
-mrt add emoji-continued
+meteor add seriousm:emoji-continued
 ```
 
 ## Usage
