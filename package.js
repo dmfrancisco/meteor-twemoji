@@ -1,8 +1,8 @@
 Package.describe({
-  summary: 'Emoji name-to-icon converter :thumbsup:',
+  summary: "Emoji :code: to twitter-style image converter",
   version: "1.4.0",
-  git: "https://github.com/SeriousM/meteor-emoji.git",
-  name: "seriousm:emoji-continued"
+  git: "https://github.com/dmfrancisco/meteor-twemoji.git",
+  name: "davidfrancisco:twemoji"
 });
 
 Package.on_use(function (api) {
