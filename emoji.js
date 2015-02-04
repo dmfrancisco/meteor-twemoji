@@ -1,6 +1,6 @@
 Emoji = {};
 
-Emoji.baseImagePath = '/packages/seriousm_emoji-continued/img/';
+Emoji.baseImagePath = '/packages/davidfrancisco_twemoji/img/';
 
 Emoji.convert = function (str) {
     if (typeof str !== 'string') {
