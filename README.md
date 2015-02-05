@@ -53,6 +53,10 @@ img.emoji {
 
 The following custom emojis don't have a twitter-style equivalent. As a fallback, images following the Universal / Apple style are used: `:bowtie:` :bowtie: `:fu:` :fu: `:metal:` :metal: `:neckbeard:` :neckbeard: `:octocat:` :octocat: `:shipit:` `:squirrel:` :shipit: `:trollface:` :trollface: `:feelsgood:` `:finnadie:` `:goberserk:` `:godmode:` `:hurtrealbad:` `:rage1:` `:rage2:` `:rage3:` `:rage4:` `:suspect:` :suspect:
 
+### List of available emoji
+
+The package does not include a list of all the available emoji in order to make the library lighter. However, if you need an array of emoji codes (for example, to add an autocompletion feature to your app) you can always copy the line that initializes the `files` variable in the `package.js` file.
+
 ## Authors
 
 This code comes from a Meteor package created by [@AlarmingCow](https://github.com/AlarmingCow/meteor-emoji), now maintained by [@SeriousM](https://github.com/SeriousM/meteor-emoji). All graphics were created by [Twitter](https://github.com/twitter/twemoji) and are licensed under CC-BY 4.0.
