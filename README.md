@@ -38,7 +38,16 @@ You can also use this in combination with the `showdown` Meteor package:
 
 ### Styling
 
-The `<img>` tags are conveniently adorned with the `emoji` class, so you can set emoji-specific styling through that.
+The generated `<img>` tags are conveniently adorned with the `emoji` class, so you can set emoji-specific styling through that. Juts as instructed in [Twemoji](https://github.com/twitter/twemoji#inline-styles), if you'd like to size the emoji according to the surrounding text, you can use the following CSS:
+
+```css
+img.emoji {
+  height: 1em;
+  width: 1em;
+  margin: 0 .05em 0 .1em;
+  vertical-align: -0.1em;
+}
+```
 
 ### Custom emoji
 
