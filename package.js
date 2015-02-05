@@ -1,6 +1,6 @@
 Package.describe({
   summary: "Emoji :code: to twitter-style image converter",
-  version: "1.4.1",
+  version: "1.5.0",
   git: "https://github.com/dmfrancisco/meteor-twemoji.git",
   name: "davidfrancisco:twemoji"
 });
