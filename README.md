@@ -51,7 +51,9 @@ img.emoji {
 
 ### Custom emoji
 
-The following custom emojis don't have a twitter-style equivalent. As a fallback, images following the Universal / Apple style are used: `:bowtie:` :bowtie: `:fu:` :fu: `:metal:` :metal: `:neckbeard:` :neckbeard: `:octocat:` :octocat: `:shipit:` `:squirrel:` :shipit: `:trollface:` :trollface: `:feelsgood:` `:finnadie:` `:goberserk:` `:godmode:` `:hurtrealbad:` `:rage1:` `:rage2:` `:rage3:` `:rage4:` `:suspect:` :suspect:
+Some emojis available in several libraries and applications are custom made and don't have a twitter-style equivalent. As a fallback, for the following images the Universal / Apple style is used: `:fu:` :fu: `:metal:` :metal: `:shipit:` `:squirrel:` :shipit: `:trollface:` :trollface: `:feelsgood:` `:finnadie:` `:goberserk:` `:godmode:` `:hurtrealbad:` `:rage1:` `:rage2:` `:rage3:` `:rage4:` `:suspect:` :suspect:
+
+An [attempt was made to twemojify](https://github.com/dmfrancisco/meteor-twemoji/commit/c3209a6bb4acc71d659ebae9352b9a1156a95243) the following emojis: `:bowtie:` :bowtie: `:neckbeard:` :neckbeard: `:octocat:` :octocat:
 
 ### List of available emoji
 
