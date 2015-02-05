@@ -3,15 +3,15 @@ Emoji = {};
 Emoji.baseImagePath = '/packages/davidfrancisco_twemoji/img/';
 
 Emoji.convert = function (str) {
-    if (typeof str !== 'string') {
-        return '';
-    }
+  if (typeof str !== 'string') {
+    return '';
+  }
 
-    return str.replace(/:[\+\-a-z0-9_]+:/gi, function(match) {
-        var imgName = match.slice(1, -1),
-            path = Emoji.baseImagePath + imgName + '.png';
-        return '<img class="emoji" alt="' + match + '" src="' + path + '" draggable="false" />';
-    });
+  return str.replace(/:[\+\-a-z0-9_]+:/gi, function(match) {
+    var imgName = match.slice(1, -1),
+      path = Emoji.baseImagePath + imgName + '.png';
+    return '<img class="emoji" alt="' + match + '" src="' + path + '" draggable="false" />';
+  });
 };
 
 // borrowed code from https://github.com/meteor/meteor/blob/devel/packages/showdown/template-integration.js
