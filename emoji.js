@@ -10,7 +10,7 @@ Emoji.convert = function (str) {
     return str.replace(/:[\+\-a-z0-9_]+:/gi, function(match) {
         var imgName = match.slice(1, -1),
             path = Emoji.baseImagePath + imgName + '.png';
-        return '<img class="emoji" alt="' + match + '" src="' + path + '"/>';
+        return '<img class="emoji" alt="' + match + '" src="' + path + '" draggable="false" />';
     });
 };
 
